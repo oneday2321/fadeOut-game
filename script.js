@@ -131,6 +131,16 @@ const game = () => {
   //Is call all the inner function
   startGame();
   playMatch();
+
+  // Welcome Pop-up Implementation
+  const welcomePopup = () => {
+    if (!sessionStorage.getItem('welcomeShown')) {
+      alert('Welcome to our website!');
+      sessionStorage.setItem('welcomeShown', 'true');
+    }
+  };
+
+  welcomePopup();
 };
 
 //start the game function
