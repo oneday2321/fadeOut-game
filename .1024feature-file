@@ -1,3 +1,6 @@
 fileChangeLogs:
   - '.1024'
   - .gitignore
+  - 23.txt
+  - README.md
+  - script.js

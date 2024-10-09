@@ -121,7 +121,6 @@ const game = () => {
       } else {
         winner.textContent = "玩家赢";
         pScore++;
-        updateScore();
         showWinReminder(); 
         return;
       }
