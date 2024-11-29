@@ -1,6 +1,6 @@
   
 
-# Game Rules
+# Game Rules1234
 
 ## How to Play
 1. Start the game by executing the main program.
