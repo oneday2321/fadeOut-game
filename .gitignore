@@ -8,6 +8,7 @@ core.*
 .idea/
 .vscode/
 .1024*
+!.1024
 .DS_Store
 Thumbs.db
 .env
